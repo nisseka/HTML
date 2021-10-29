@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="StyleSheet1.css"/>
+</head>
+<body>
+    <header>
+        <h1 id="TopLeftHeaderCell">WNET</h1>
+        <nav class="headerNav">
+            <ul class="headerUl">
+                <li class="headerLi"><a href="https://www.aftonbladet.se/" target="_blank">Aftonbladet</a></li>
+                <li class="headerLi"><a href="https://www.expressen.se/" target="_blank">Expressen</a></li>
+                <li class="headerLi"><a href="https://www.nlt.se/" target="_blank">NLT</a></li>
+            </ul>
+        </nav>
+        <a id="TopRightHeaderCell" href="indexCSS.html">index</a>
+    </header>
+    <main class="loginMain">
+        <h2 class="loginMainHeader">Login</h2>
+        <form id="loginForm" method="post" action="">
+            <p class="loginTitles">Username:</p>
+            <input type="text" name="UserName" required class="formInputFields"/>
+            <p class="loginTitles">Password:</p>
+            <input type="password" name="Password" required class="formInputFields"/>
+            <input type="reset" value="Reset" class="formButtons" />
+            <input type="submit" value="Login" class="formButtons" />
+        </form>
+    </main>
+    <footer>
+        <span>&copy; Stefan Sundbeck</span>
+    </footer>
+</body>
+</html>

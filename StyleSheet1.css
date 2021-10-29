@@ -1,0 +1,201 @@
+﻿/*
+    With black rounded borders on header, footer, main & aside elements & buttons
+
+*/
+
+body {
+    font-family: sans-serif;
+    width: 1024px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+}
+
+/* 
+    Styles for header: 
+*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: dodgerblue;
+    align-items: center;
+    align-content: center;
+    height: 70px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF9900;
+}
+
+#TopLeftHeaderCell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+
+.headerLi {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+}
+
+.headerUl {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-items: stretch;
+    height: 70px;
+}
+
+#TopRightHeaderCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+
+/* 
+    Styles for footer: 
+*/
+
+footer {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+/* 
+    Styles for page loginCSS.html: 
+*/
+
+.loginMain {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #0066CC;
+    align-items: center;
+    height: 400px;
+    border-radius: 8px;
+}
+
+#loginForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 50px 25px 50px;
+}
+
+.formInputFields {
+    padding: 6px 10px;
+    width: 90%;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.formButtons {
+    background-color: #4CAF50;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 6px 7px 6px 0px;
+    cursor: pointer;
+}
+
+.loginMainHeader {
+    margin-right: 286px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.loginTitles {
+    font-weight: bold;
+}
+
+/* 
+    Styles for page indexCSS.html: 
+*/
+
+.indexMain {
+    display: flex;
+    flex-direction: row;
+}
+
+.indexDivMain {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #0066CC;
+    width: 75%;
+    padding: 2px 7px;
+}
+
+.mainHeader {
+    flex-basis: 100%;
+}
+
+.headlineElement {
+    text-decoration: underline;
+}
+
+.indexParagraph {
+    flex-basis: 100%;
+}
+
+.articleMain {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.FirstArticleMain {
+    margin-right: 5px;
+}
+
+.indexAside {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: lightgreen;
+    width: 25%;
+    color: black;
+    padding: 2px 7px;
+}
+
+#SecondParagraphfirstArticle {
+    font-weight: bold;
+    color:blue;
+}
